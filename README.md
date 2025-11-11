@@ -1,5 +1,5 @@
 # CPSRank:Unsupervised Keyphrase Extraction via Contextual Perturbation (CIKM '25)
-##paper: [ACM Digital Library — DOI:10.1145/3746252.3760945](https://dl.acm.org/doi/10.1145/3746252.3760945)
+## paper: [ACM Digital Library — DOI:10.1145/3746252.3760945](https://dl.acm.org/doi/10.1145/3746252.3760945)
 - The importance of a phrase within a document becomes most evident through its absence rather than its presence. Inspired by this observation, we redefine keyphrases as those whose removal most disrupts the document's meaning. Traditional unsupervised methods typically rely on document-level signals, such as term frequency or phrase-to document similarity, which overlook the contextual contribution of a phrase. This paper proposes CPSRank, an unsupervised keyphrase extraction method that evaluates the semantic importance of candidate phrases via a contextual perturbation score (CPS). The CPS quantifies the critical role of each phrase by combining contextual perturbation and content loss. CPSRank outperforms existing baselines in terms of F1 scores while providing deeper insights into the semantic value of keyphrases. 
 
 ## Requirements (Thanks to [SAMRank](https://github.com/kangnlp/SAMRank))
